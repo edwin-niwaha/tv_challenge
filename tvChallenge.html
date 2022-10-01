@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>TV CHALLENGE</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="row txt-center">
+
+                <!-- Conditional Rendering starts -->
+                <div class="col hyt-300 clr-white">
+
+                    <h1 v-if="switchBtn">
+                        <div class="tvoff">
+                            <button id="offbtn" v-on:click="switchTv"></button>
+                        </div>
+                    </h1>
+                    <h1 v-else>
+                        <div class="tvon">
+                            <button v-on:click="switchTv"></button>
+                        </div>                    </h1>
+
+                </div>
+                <!-- Conditional Rendering ends -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/scripts/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="/scripts/vue.js"></script>
+    <script src="/scripts/tv.js"></script>
+</body>
+
+</html>

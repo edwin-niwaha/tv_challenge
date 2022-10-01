@@ -1,0 +1,83 @@
+body{
+    margin-top: 50px
+}
+
+.all-width{
+    width: 100%;
+}
+.center-txt{
+    text-align: center;
+}
+
+.mgn-btm-10{
+    margin-bottom: 10px;
+}
+
+.hyt-300{
+    height: 300px;
+}
+
+.clr-white{
+    color: white;
+}
+
+.bg-clr-black{
+    background-color: black;
+}
+
+.bg-color-purple{
+    background-color: purple;
+}
+
+.bg-color-powderblue{
+    background-color: powderblue;
+}
+
+.txt-center{
+    text-align: center;
+    vertical-align:middle;
+}
+
+.img1{
+    width: 20%;
+}
+.tvoff{
+    background-color: rgba(55, 38, 38, 0.555);
+    height: 400px;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border: 25px solid black;
+}
+.tvon{
+    background-color: rgb(214, 209, 209);
+    height: 400px;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border: 25px solid black;
+    /* background-image: url("/assets/images/tv_image.png");
+    background-repeat: no-repeat; */
+    background: url("/assets/images/tv_image.png") no-repeat;
+    background-size: cover;
+}
+button{
+    background-color: red;
+    position: relative;
+    float: right;
+    margin-top: 69%;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+#offbtn{
+    background-color: azure;
+    position: relative;
+    float: right;
+    margin-top: 69%;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
